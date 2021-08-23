@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.arrocera {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 450px;
+  background-image: url("../imagen/off2.jpg");
+  background-size: contain;
+  background-position: center;  
+}
+.arrocera.active {
+  background-image: url("../imagen/on2.jpg");
+}
+
+.arrocera.calentando {
+  background-image: url("../imagen/semioff2.jpg");;
+}
+
+.arrocera.desconectado {
+  background-image: url("../imagen/off2.jpg");;
+}
+
+.boton {
+  margin: 300px 202.6px;
+  width: 50px;
+  height: 26px;
+}
+
+.apagado {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  left: 70%;
+  top: 55%;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../imagen/boton.jpg");
+}
